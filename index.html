@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="ticket.png">
+    <title>Ticket Raise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="head">Ticket Raise</h1>
+        <div class="ticket-form">
+            <h2 id="head2">Create a New Ticket</h2>
+            <form id="ticket-form">
+                <label for="name">Name : </label>
+                <input type="text" placeholder="Enter Your Name" id="name" required> <br>
+
+                <label for="name">Gender : </label>
+                <input type="radio" name="Male" id="gender"> 
+                <label for="gender">Male </label>
+                <input type="radio" name="Male" id="gender"> 
+                <label for="gender">Female </label><br>
+
+                <label for="contact">Contact No : </label>
+                <input type="number" placeholder="Enter Your Contact" id="contact" required> <br>
+
+                <label for="email">Email : </label>
+                <input type="text" placeholder="Enter Your Email" id="email" required> <br>
+
+                <label for="state">State : </label>
+                <select name="state" id="state" required>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Maharahtra">Maharahtra</option>
+                </select><br>
+
+                <label for="title">Title:</label>
+                <input type="text" id="title" required>
+                <br>
+
+                <label for="description">Description:</label>
+                <textarea id="description" required></textarea>
+                <br>
+
+                <button type="submit" id="submit">Create Ticket</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
